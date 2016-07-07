@@ -12,10 +12,10 @@
 
 @implementation MAWeakArray
 
-- (id)init
-{
-    return [self initWithCapacity:0];
-}
+//- (id)init
+//{
+//    return [self super:0];
+//}
 
 - (id)initWithCapacity:(NSUInteger)numItems
 {
